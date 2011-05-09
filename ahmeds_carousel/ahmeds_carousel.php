@@ -117,7 +117,7 @@ function _ahmeds_carousel_admin()
 <div class="wrap">
 	<h2>Carousel</h2>
 	<p>So, here we are! To add a carousel slide, simply enter the slide's details (so an image's URL and click through link or some HTML, that'll allow you to add buttons and what not) and save. So you may be thinking what happens if you enter both an image and some HTML? Well, my good sir/madam, the HTML <strong>always</strong> overrides the image.</p>
-	<p>You can insert your carousel simply by calling [ahmeds_carousel] in your post/page or ahmeds_carousel() in your template.</p>
+	<p>You can insert your carousel simply by calling ahmeds_carousel() in your template.</p>
 	<form action="options.php" method="post">
 		<?php settings_fields( '_ahmeds_carousel_setting' ); ?>
 		<input type="hidden" name="page_options" value="carousel_slides,carousel_vars" />
